@@ -1,4 +1,4 @@
-## What is HTTP?
+## What is HTTP ? 🤔 
 
 When it comes to HTTP, the first thought that comes to mind is about using
 internet, is the scenario where we really see the use of HTTP in practice. We access
@@ -29,39 +29,59 @@ Client (Browser like Chrome or Firefox) -> Communication rules? -> Server (Using
 
 ## Modules
 
-**01. What is HTTP?**
+### 01. What is HTTP?
 
-- On the internet there is always a client and a server
-- There must be communication rules between the client and the server
-- Rules are defined within a protocol
-- HTTP is the most important protocol on the internet
+↪️ On the internet there is always a client and a server
 
-**02. The secure web - HTTPS**
+↪️ There must be communication rules between the client and the server
 
-- By default, data is trafficked as plain text on the web.
-- Only with HTTPS the web is secure
-- The HTTPS protocol is nothing more than the HTTP protocol plus an additional layer of security, TLS / SSL
-- The type of public key / private key encryption
-- What are digital certificates
-- Certificates have identity and validity
-- Public keys are in the certificate, the private key is only on the server
-- What is a certification authority
-- The browser uses the public key to encrypt the data
+↪️ Rules are defined within a protocol
+
+↪️ HTTP is the most important protocol on the internet
 
 
-**03. Addresses under your domain**
+### 02. The secure web - HTTPS
 
-- URL is the web addresses
-- A URL begins with the protocol (for example https: //) followed by the domain (https://github.com)
-- After the domain can come the port, if not defined, the standard port of this protocol is used
-- After the domain: port, the path to a resource is specified (/ devgabrieldejesus / http-basics)
-- A resource is something concrete in the application that we want to access
+↪️ By default, data is trafficked as plain text on the web.
+
+↪️ Only with HTTPS the web is secure
+
+↪️ The HTTPS protocol is nothing more than the HTTP protocol plus an additional layer of security, TLS / SSL
+
+↪️ The type of public key / private key encryption
+
+↪️ What are digital certificates
+
+↪️ Certificates have identity and validity
+
+↪️ Public keys are in the certificate, the private key is only on the server
+
+↪️ What is a certification authority
+
+↪️ The browser uses the public key to encrypt the data
 
 
-**04. The client asks and the server answers**
+### 03. Addresses under your domain
 
-- The HTTP protocol follows the Request-Response model
-- Always the customer initiates communication
-- A request must have all the information for the server to generate the response
-- HTTP is stateless, does not keep information between requests
-- Development platforms use sessions to store information between requests
+↪️ URL is the web addresses
+
+↪️ A URL begins with the protocol (for example https: //) followed by the domain (https://github.com)
+
+↪️ After the domain can come the port, if not defined, the standard port of this protocol is used
+
+↪️ After the domain: port, the path to a resource is specified (/ devgabrieldejesus / http-basics)
+
+↪️ A resource is something concrete in the application that we want to access
+
+
+### 04. The client asks and the server answers
+
+↪️ The HTTP protocol follows the Request-Response model
+
+↪️ Always the customer initiates communication
+
+↪️ A request must have all the information for the server to generate the response
+
+↪️ HTTP is stateless, does not keep information between requests
+
+↪️ Development platforms use sessions to store information between requests
