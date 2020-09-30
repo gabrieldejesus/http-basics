@@ -9,7 +9,7 @@ communication, and this communication has two well-known parts that we call
 Client-Server or in Portuguese Client-Server. This is an architectural model, that is, the
 The entire internet is based on this architecture where there is a client that requests and a server that responds.
 
-* Client (Browser like Chrome or Firefox) -> Internet -> Server (Using PHP, JAVA or NET among others) *
+*Client (Browser like Chrome or Firefox) -> Internet -> Server (Using PHP, JAVA or NET among others)*
 
 In any communication, there must be some rules for the two parties to be able to
 successfully understand. Thinking about your browser communication between Alura or some other
@@ -22,21 +22,21 @@ address: https://tools.ietf.org/html/rfc2616
 Client (Browser like Chrome or Firefox) -> Communication rules? -> Server (Using PHP, JAVA or NET among others)
 
 #### Summing up:
-* HTTP is a protocol that defines the rules of communication between client and server on the internet. *
+*HTTP is a protocol that defines the rules of communication between client and server on the internet.*
 
 #### Example:
-* Client (Browser like Chrome or Firefox) -> HTTP (protocol) -> Server (Using PHP, JAVA or NET among others) *
+*Client (Browser like Chrome or Firefox) -> HTTP (protocol) -> Server (Using PHP, JAVA or NET among others)*
 
 ## Modules
 
-** 01. What is HTTP? **
+**01. What is HTTP?**
 
 - On the internet there is always a client and a server
 - There must be communication rules between the client and the server
 - Rules are defined within a protocol
 - HTTP is the most important protocol on the internet
 
-** 02. The secure web - HTTPS **
+**02. The secure web - HTTPS**
 
 - By default, data is trafficked as plain text on the web.
 - Only with HTTPS the web is secure
@@ -49,7 +49,7 @@ Client (Browser like Chrome or Firefox) -> Communication rules? -> Server (Using
 - The browser uses the public key to encrypt the data
 
 
-** 03. Addresses under your domain **
+**03. Addresses under your domain**
 
 - URL is the web addresses
 - A URL begins with the protocol (for example https: //) followed by the domain (https://github.com)
@@ -58,7 +58,7 @@ Client (Browser like Chrome or Firefox) -> Communication rules? -> Server (Using
 - A resource is something concrete in the application that we want to access
 
 
-** 04. The client asks and the server answers **
+**04. The client asks and the server answers**
 
 - The HTTP protocol follows the Request-Response model
 - Always the customer initiates communication
