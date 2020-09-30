@@ -69,7 +69,7 @@ Client (Browser like Chrome or Firefox) -> Communication rules? -> Server (Using
 
 ↪️ After the domain can come the port, if not defined, the standard port of this protocol is used
 
-↪️ After the domain: port, the path to a resource is specified (/ devgabrieldejesus / http-basics)
+↪️ After the domain: port, the path to a resource is specified (/devgabrieldejesus/http-basics)
 
 ↪️ A resource is something concrete in the application that we want to access
 
@@ -84,4 +84,68 @@ Client (Browser like Chrome or Firefox) -> Communication rules? -> Server (Using
 
 ↪️ HTTP is stateless, does not keep information between requests
 
-↪️ Development platforms use sessions to store information between requests
+↪️ Development platforms use sessions to store information between request
+
+
+### 05. Debugging the HTPP request
+↪️ Debug console
+
+↪️ HTTP GET Method
+
+↪️ Response header
+
+↪️ Response codes (Status Code)
+
+
+### 06. Request parameters
+
+↪️ Used to define survey details or submit form data
+
+↪️ GET: ss parameters are sent in the URL itself (using [?] And concatenating with [&])
+
+↪️ POST: parameters are sent in the request body
+
+↪️ HTTP️ There are other HTTP methods like POST, DELETE, PUT
+
+#### Summary
+
+↪️ GET: Receive data (Parameters in the URL)
+ 
+↪️ POST: Submit data (Parameters in the request body)
+ 
+↪️ DELETE: Remove a resource
+ 
+↪️ PUT / PATCH: Update a resource
+
+
+### 07. Web services with REST
+
+↪️ REST is an architectural standard for communications between applications
+
+↪️ It takes advantage of the HTTP structure
+
+↪️ Resources are defined via URI
+
+↪️ Operations with HTTP methods (GET / POST / PUT / DELETE)
+
+↪️ Headers (Accept / Content-Type) are used to specify representations (JSON, XML, ...)
+
+### 💡 To learn more: data types
+
+In some HTTP headers we must specify some format. The formats are called in the MIME types documentation. And in the definition of the header we use the following structure: type / subtype. Known types are:
+
+`text, image, application, audio and video`
+
+And some subtypes:
+
+`text -> text / plain, text / html, text / css, text / javascript`
+
+`image -> image / gif, image / png, image / jpeg`
+
+`audio -> audio / midi, audio / mpeg, audio / webm, audio / ogg, audio / wav`
+
+`video -> video / mp4`
+
+`application -> application / xml, application / pdf`
+
+`Other formats accepted: https: // developer.mozilla.org / en-US / docs / Web / HTTP / Basics_of_HTTP / MIME_types`
