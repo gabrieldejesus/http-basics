@@ -1,66 +1,67 @@
-O que é o HTTP?
+## What is HTTP?
 
-Quando se fala em HTTP, o primeiro pensamento que vem a nossa mente é sobre a utilização da 
-internet, é o cenário onde vemos realmente na prática a utilização do HTTP. Nós acessamos 
-sites em que seus endereços iniciam com http:// e por isso precisamos conhecer o que realmente 
-está acontecendo ao fazer isso.
-No momento em que acessou este curso, esta aula, entre o navegador e a Alura aconteceu 
-uma comunicação, e esta comunicação tem duas partes bem conhecidas que chamamos de 
-Client-Server ou em português Cliente-Servidor. Este é um modelo arquitetural, ou seja, a 
-internet inteira é baseada nesta arquitetura onde há um cliente que solicita e um servidor que responde.
+When it comes to HTTP, the first thought that comes to mind is about using
+internet, is the scenario where we really see the use of HTTP in practice. We access
+sites where their addresses start with http: // and so we need to know what really
+is happening when doing this.
+The moment you accessed this course, this class, between the browser and Alura happened
+communication, and this communication has two well-known parts that we call
+Client-Server or in Portuguese Client-Server. This is an architectural model, that is, the
+The entire internet is based on this architecture where there is a client that requests and a server that responds.
 
-Cliente(Navegador como Chrome ou Firefox) -> Internet -> Servidor(Usando PHP, JAVA ou NET entre outros)
+* Client (Browser like Chrome or Firefox) -> Internet -> Server (Using PHP, JAVA or NET among others) *
 
-Em qualquer comunicação é preciso existir algumas regras para que as duas partes consigam se 
-entender com sucesso. Pensando na comunicação do seu navegador entre a Alura ou algum outro 
-site esse conjunto de regras é basicamente um protocolo, onde neste cenário é o HTTP.
+In any communication, there must be some rules for the two parties to be able to
+successfully understand. Thinking about your browser communication between Alura or some other
+site this set of rules is basically a protocol, where in this scenario is HTTP.
 
-Os protocolos são definidos, especificados e disponibilizados para implementação em 
-ambas as partes, para consultar a especificação do HTTP, você pode utilizar o seguinte 
-endereço: https://tools.ietf.org/html/rfc2616
+Protocols are defined, specified and made available for implementation in
+both parties, to consult the HTTP specification, you can use the following
+address: https://tools.ietf.org/html/rfc2616
 
-Cliente(Navegador como Chrome ou Firefox) -> Regras de comunicação? -> Servidor(Usando PHP, JAVA ou NET entre outros)
+Client (Browser like Chrome or Firefox) -> Communication rules? -> Server (Using PHP, JAVA or NET among others)
 
-`Resumindo:`
-O HTTP é um protocolo que define as regras de comunicação entre cliente e servidor na internet.
+#### Summing up:
+* HTTP is a protocol that defines the rules of communication between client and server on the internet. *
 
-`Exemplo:`
-Cliente(Navegador como Chrome ou Firefox) -> HTTP(protocolo) -> Servidor(Usando PHP, JAVA ou NET entre outros)
+#### Example:
+* Client (Browser like Chrome or Firefox) -> HTTP (protocol) -> Server (Using PHP, JAVA or NET among others) *
 
+## Modules
 
-01. O que é HTTP?
-O que eu aprendi desse modulo:
-- Na internet sempre tem um cliente e um servidor
-- Entre o cliente e o servidor precisam haver regras de comunicação
-- As regras são definidas dentro de um protocolo
-- HTTP é o protocolo mais importante na internet
+** 01. What is HTTP? **
 
-02. A Web segura - HTTPS
-O que eu aprendi desse modulo:
-- Por padrão, os dados são trafegados como texto puro na web.
-- Apenas com HTTPS a Web é segura
-- O protocolo HTTPS nada mais é do que o protocolo HTTP mais uma camada adicional de segurança, a TLS/SSL
-- O tipo de criptografia de chave pública/chave privada
-- O que são os certificados digitais
-- Certificados possuem identidade e validade
-- As chaves públicas estão no certificado, a chave privada fica apenas no servidor
-- O que é uma autoridade certificadora
-- O navegador utiliza a chave pública para criptografar os dados
+- On the internet there is always a client and a server
+- There must be communication rules between the client and the server
+- Rules are defined within a protocol
+- HTTP is the most important protocol on the internet
 
+** 02. The secure web - HTTPS **
 
-03. Endereços sob seu domínio
-O que eu aprendi desse modulo:
-- URL são os endereços da Web
-- Uma URL começa com o protocolo (por exemplo https://) seguido pelo domínio (www.alura.com.br)
-- Depois do domínio pode vir a porta, se não for definida é utilizada a porta padrão desse protocolo
-- Após o domínio:porta, é especificado o caminho para um recurso (/course/introducao-html-css)
-- Um recurso é algo concreto na aplicação que queremos acessar
+- By default, data is trafficked as plain text on the web.
+- Only with HTTPS the web is secure
+- The HTTPS protocol is nothing more than the HTTP protocol plus an additional layer of security, TLS / SSL
+- The type of public key / private key encryption
+- What are digital certificates
+- Certificates have identity and validity
+- Public keys are in the certificate, the private key is only on the server
+- What is a certification authority
+- The browser uses the public key to encrypt the data
 
 
-04. O cliente pede e o servidor responde
-O que eu aprendi desse modulo:
-- O protocolo HTTP segue o modelo Requisição-Resposta
-- Sempre o cliente inicia a comunicação
-- Uma requisição precisa ter todas as informações para o servidor gerar a resposta
-- HTTP é stateless, não mantém informações entre requisições
-- As plataformas de desenvolvimento usam sessões para guardar informações entre requisições
+** 03. Addresses under your domain **
+
+- URL is the web addresses
+- A URL begins with the protocol (for example https: //) followed by the domain (https://github.com)
+- After the domain can come the port, if not defined, the standard port of this protocol is used
+- After the domain: port, the path to a resource is specified (/ devgabrieldejesus / http-basics)
+- A resource is something concrete in the application that we want to access
+
+
+** 04. The client asks and the server answers **
+
+- The HTTP protocol follows the Request-Response model
+- Always the customer initiates communication
+- A request must have all the information for the server to generate the response
+- HTTP is stateless, does not keep information between requests
+- Development platforms use sessions to store information between requests
