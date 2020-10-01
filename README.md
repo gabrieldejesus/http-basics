@@ -88,6 +88,7 @@ Client (Browser like Chrome or Firefox) -> Communication rules? -> Server (Using
 
 
 ### 05. Debugging the HTPP request
+
 ↪️ Debug console
 
 ↪️ HTTP GET Method
@@ -149,3 +150,25 @@ And some subtypes:
 `application -> application / xml, application / pdf`
 
 `Other formats accepted: https: // developer.mozilla.org / en-US / docs / Web / HTTP / Basics_of_HTTP / MIME_types`
+
+### 08. HTTP2 - For a more efficient web
+
+HTTP / 2 (originally called HTTP / 2.0) is an important revision of the HTTP network protocol used by the World Wide Web. It was derived from the previous experimental SPDY protocol, originally developed by Google.
+HTTP / 2 was developed by the HTTP Working Group (also called httpbis, where "bis" means "second") of the Internet Engineering Task Force.
+HTTP / 2 is the first new version of HTTP since HTTP 1.1, standardized in RFC 2068 in 1997.
+The Working Group submitted HTTP / 2 to the IESG for consideration as a Proposed Standard in December 2014, and the IESG approved the publication as a Proposed Standard on February 17, 2015.
+The HTTP / 2 specification was published as RFC 7540 on May 14, 2015.
+
+💡 A little about HTTP2
+
+↪️ Acts on what is already known of HTTP
+
+↪️ Binary and tablet headers (HPACK)
+
+↪️ Standard GZIP in response
+
+↪️ Multiplexing (Request and responses are parallel)
+
+↪️ Headers Sateful (We only send headers that change)
+
+↪️ Serve-Push (Act of the server sending data without the browser having asked)
