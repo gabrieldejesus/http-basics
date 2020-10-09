@@ -4,39 +4,42 @@
 
 Quando se trata de HTTP, o primeiro pensamento que vem à mente é sobre como usar internet, é o cenário onde realmente vemos o uso do HTTP na prática. Nós acessamos sites onde seus endereços começam com http: // e, portanto, precisamos saber o que realmente está acontecendo ao fazer isso.
 
-No momento em que você acessou este repositório, esta aula, entre o navegador e o Alura aconteceu comunicação, e essa comunicação tem duas partes bem conhecidas que chamamos
-Cliente-Servidor ou em Português Cliente-Servidor. Este é um modelo arquitetônico, ou seja, o
+No momento em que você acessou este repositório, entre o navegador e o GitHub aconteceu uma comunicação, e essa comunicação tem duas partes bem conhecidas que chamamos
+*client-server* ou em Português *Cliente-Servidor*.
+
 Toda a internet é baseada nesta arquitetura onde há um cliente que solicita e um servidor que responde.
 
-* Cliente (navegador como Chrome ou Firefox) -> Internet -> Servidor (usando PHP, JAVA ou NET entre outros) *
+### Exemplo:
+**Cliente** (navegador como Chrome ou Firefox) -> **Internet** -> **Servidor** (usando PHP, JAVA ou NET entre outros)
 
-Em qualquer comunicação, deve haver algumas regras para que as duas partes possam
-entender com sucesso. Pensando na comunicação do seu navegador entre Alura ou algum outro
-site este conjunto de regras é basicamente um protocolo, onde neste cenário é HTTP.
+Como em qualquer comunicação. devesse haver algumas regras para que as duas partes possam se entender com sucesso. 
+Pensando na comunicação do seu navegador com o Git ou algum outro site este conjunto de regras é basicamente um protocolo, onde neste cenário é HTTP.
 
-Os protocolos são definidos, especificados e disponibilizados para implementação em
-ambas as partes, para consultar a especificação HTTP, você pode usar o seguinte
+Os protocolos são definidos, especificados e disponibilizados para implementação em ambas as partes, para consultar a especificação HTTP, você pode usar o seguinte
 endereço: https://tools.ietf.org/html/rfc2616
 
-Cliente (navegador como Chrome ou Firefox) -> Regras de comunicação? -> Servidor (usando PHP, JAVA ou NET entre outros)
+### Exemplo:
+**Cliente** (navegador como Chrome ou Firefox) -> **Regras de comunicação?** -> **Servidor** (usando PHP, JAVA ou NET entre outros)
 
-#### Resumindo:
-* HTTP é um protocolo que define as regras de comunicação entre cliente e servidor na internet. *
+### Resumindo:
+HTTP é um protocolo que define as regras de comunicação entre cliente e servidor na internet.
 
-#### Exemplo:
-* Cliente (navegador como Chrome ou Firefox) -> HTTP (protocolo) -> Servidor (usando PHP, JAVA ou NET entre outros) *
+### Exemplo:
+**Cliente** (navegador como Chrome ou Firefox) -> **HTTP (protocolo)** -> **Servidor** (usando PHP, JAVA ou NET entre outros) *
 
-## Módulos
+***
 
-### 01. O que é HTTP?
+## 💡 Vamos Além
 
-↪️ Na internet sempre existe um cliente e um servidor
+### 00. Uma visão geral do HTTP
 
-↪️ Deve haver regras de comunicação entre o cliente e o servidor
+✔️ Na internet sempre existe um cliente e um servidor
 
-↪️ As regras são definidas dentro de um protocolo
+✔️ Deve haver regras de comunicação entre o cliente e o servidor
 
-↪️ HTTP é o protocolo mais importante da internet
+✔️ As regras são definidas dentro de um protocolo
+
+✔️ HTTP é o protocolo mais importante da internet
 
 
 ### 02. A web segura - HTTPS
