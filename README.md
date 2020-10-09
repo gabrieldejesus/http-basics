@@ -42,96 +42,118 @@ HTTP é um protocolo que define as regras de comunicação entre cliente e servi
 ✔️ HTTP é o protocolo mais importante da internet
 
 
-### 02. A web segura - HTTPS
+### 🔐 A web segura - HTTPS
 
-↪️ Por padrão, os dados são trafegados como texto simples na web.
+✔️ Por padrão, os dados são trafegados como texto simples na web.
 
-↪️ Somente com HTTPS a web é segura
+✔️ Somente com HTTPS a web é segura
 
-↪️ O protocolo HTTPS nada mais é do que o protocolo HTTP mais uma camada adicional de segurança, TLS / SSL
+✔️ O protocolo HTTPS nada mais é do que o protocolo HTTP mais uma camada adicional de segurança, **TLS / SSL**
 
-↪️ O tipo de criptografia de chave pública / chave privada
+⏳ O tipo de criptografia de chave pública / chave privada
+> (explicação em breve)
 
-↪️ O que são certificados digitais
+⏳ O que são certificados digitais?
+> (explicação em breve)
 
-↪️ Os certificados têm identidade e validade
+⏳ Os certificados têm identidade e validade?
+> (explicação em breve)
 
-↪️ As chaves públicas estão no certificado, a chave privada está apenas no servidor
+⏳ As chaves públicas estão no certificado, a chave privada está apenas no servidor
+> (explicação em breve)
 
-↪️ O que é uma autoridade de certificação
+⏳ O que é uma autoridade de certificação?
+> (explicação em breve)
 
-↪️ O navegador usa a chave pública para criptografar os dados
-
-
-### 03. Endereços em seu domínio
-
-↪️ URL são os endereços da web
-
-↪️ Um URL começa com o protocolo (por exemplo https: //) seguido pelo domínio (https://github.com)
-
-↪️ Depois que o domínio pode vir a porta, se não estiver definida, a porta padrão deste protocolo é usada
-
-↪️ Após o domínio: porta, o caminho para um recurso é especificado (/ devgabrieldejesus / http-basics)
-
-↪️ Um recurso é algo concreto no aplicativo que queremos acessar
+⏳ O navegador usa a chave pública para criptografar os dados?
+> (explicação em breve)
 
 
-### 04. O cliente pergunta e o servidor responde
+### 🌐 Endereços em seu domínio
 
-↪️ O protocolo HTTP segue o modelo Solicitação-Resposta
+✔️ URL são os endereços da web
 
-↪️ Sempre o cliente inicia a comunicação
+✔️ Um URL começa com o protocolo (por exemplo https: //) seguido pelo domínio (https://github.com)
 
-↪️ Um pedido deve ter todas as informações para o servidor gerar a resposta
+✔️ Depois que o domínio pode vir a porta, se não estiver definida, a porta padrão deste protocolo é usada
 
-↪️ HTTP não tem estado, não guarda informações entre as solicitações
+✔️ Após o domínio: porta, o caminho para um recurso é especificado (/ devgabrieldejesus / http-basics)
 
-↪️ As plataformas de desenvolvimento usam sessões para armazenar informações entre as solicitações
-
-
-### 05. Depurando a solicitação HTPP
-
-↪️ Console de depuração
-
-↪️ Método HTTP GET
-
-↪️ Cabeçalho de resposta
-
-↪️ Códigos de resposta (código de status)
+✔️ Um recurso é algo concreto no aplicativo que queremos acessar
 
 
-### 06. Parâmetros de solicitação
+### 📢 O cliente pergunta e o servidor responde
 
-↪️ Usado para definir os detalhes da pesquisa ou enviar dados do formulário
+⏳ O protocolo HTTP segue o modelo Solicitação-Resposta
+> (explicação em breve)
 
-↪️ GET: os parâmetros ss são enviados na própria URL (usando [?] E concatenando com [&])
+✔️ Sempre é o cliente inicia a comunicação
 
-↪️ POST: os parâmetros são enviados no corpo da solicitação
+✔️ Um pedido deve ter todas as informações para o servidor gerar a resposta
 
-↪️ HTTP️ Existem outros métodos HTTP como POST, DELETE, PUT
+⏳ HTTP não tem estado, não guarda informações entre as solicitações
+> (explicação em breve)
 
-#### Resumo
+⏳ As plataformas de desenvolvimento usam sessões para armazenar informações entre as solicitações
+> (explicação em breve)
 
-↪️ OBTER: Receber dados (Parâmetros na URL)
+### 🛠 Depurando a solicitação HTPP
+
+⏳ Console de depuração
+> (explicação em breve)
+
+⏳ Método HTTP GET
+> (explicação em breve)
+
+⏳ Cabeçalho de resposta
+> (explicação em breve)
+
+⏳ Códigos de resposta (código de status)
+> (explicação em breve)
+
+### 🧱 Parâmetros de solicitação
+
+✔️ Usado para definir os detalhes da pesquisa ou enviar dados do formulário
+
+⏳ GET: os parâmetros são enviados na própria URL (usando [?] E concatenando com [&])
+> (explicação em breve)
+
+⏳ POST: os parâmetros são enviados no corpo da solicitação
+> (explicação em breve)
+
+⏳ HTTP️ Existem outros métodos HTTP como POST, DELETE, PUT
+> (explicação em breve)
+
+Resumo
+
+⏳ OBTER: Receber dados (Parâmetros na URL)
+> (explicação em breve)
  
-↪️ POST: Enviar dados (parâmetros no corpo da solicitação)
- 
-↪️ DELETE: Remover um recurso
- 
-↪️ PUT / PATCH: Atualizar um recurso
+⏳ POST: Enviar dados (parâmetros no corpo da solicitação)
+> (explicação em breve)
 
+⏳ DELETE: Remover um recurso
+> (explicação em breve)
+ 
+⏳ PUT / PATCH: Atualizar um recurso
+> (explicação em breve)
 
 ### 07. Serviços da Web com REST
 
-↪️ REST é um padrão arquitetônico para comunicações entre aplicativos
+⏳ REST é um padrão arquitetônico para comunicações entre aplicativos
+> (explicação em breve)
 
-↪️ Aproveita a estrutura HTTP
+⏳ Aproveita a estrutura HTTP
+> (explicação em breve)
 
-↪️ Os recursos são definidos via URI
+⏳ Os recursos são definidos via URI
+> (explicação em breve)
 
-↪️ Operações com métodos HTTP (GET / POST / PUT / DELETE)
+⏳ Operações com métodos HTTP (GET / POST / PUT / DELETE)
+> (explicação em breve)
 
-↪️ Cabeçalhos (Aceitar / Tipo de Conteúdo) são usados ​​para especificar representações (JSON, XML, ...)
+⏳ Cabeçalhos (Aceitar / Tipo de Conteúdo) são usados para especificar representações (JSON, XML, ...)
+> (explicação em breve)
 
 ### 💡 Para saber mais: tipos de dados
 
