@@ -31,7 +31,7 @@ HTTP é um protocolo que define as regras de comunicação entre cliente e servi
 
 ## 💡 Vamos Além
 
-### 00. Uma visão geral do HTTP
+### 🧭 Uma visão geral do HTTP
 
 ✔️ Na internet sempre existe um cliente e um servidor
 
@@ -50,17 +50,19 @@ HTTP é um protocolo que define as regras de comunicação entre cliente e servi
 
 ✔️ O protocolo HTTPS nada mais é do que o protocolo HTTP mais uma camada adicional de segurança, **TLS / SSL**
 
-⏳ O tipo de criptografia de chave pública / chave privada
-> (explicação em breve)
+✔️ O tipo de criptografia de chave pública / chave privada
 
-⏳ O que são certificados digitais?
-> (explicação em breve)
+A criptografia de chaves pública e privada utiliza duas chaves distintas, uma para codificar e outra para decodificar mensagens. Neste método cada pessoa ou entidade mantém duas chaves: uma pública, que pode ser divulgada livremente, e outra privada, que deve ser mantida em segredo pelo seu dono. As mensagens codificadas com a chave pública só podem ser decodificadas com a chave privada correspondente. 
 
-⏳ Os certificados têm identidade e validade?
-> (explicação em breve)
+✔️ O que são certificados digitais?
 
-⏳ As chaves públicas estão no certificado, a chave privada está apenas no servidor
-> (explicação em breve)
+O SSL é a abreviação de “Secure Sockets Layer” e os certificados SSL são utilizados para proteger as comunicações entre um site, host ou servidor e os usuários finais que estão se conectando a ele (ou entre duas máquinas em um relacionamento cliente-servidor).
+
+✔️ Os certificados têm identidade e validade
+
+✔️ As chaves públicas estão no certificado, a chave privada está apenas no servidor
+
+A criptografia de chaves pública e privada utiliza duas chaves distintas, uma para codificar e outra para decodificar mensagens. Neste método cada pessoa ou entidade mantém duas chaves: uma pública, que pode ser divulgada livremente, e outra privada, que deve ser mantida em segredo pelo seu dono. As mensagens codificadas com a chave pública só podem ser decodificadas com a chave privada correspondente.
 
 ⏳ O que é uma autoridade de certificação?
 > (explicação em breve)
