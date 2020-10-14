@@ -52,20 +52,28 @@ HTTP é um protocolo que define as regras de comunicação entre cliente e servi
 
 ✔️ O tipo de criptografia de chave pública / chave privada
 
-A criptografia de chaves pública e privada utiliza duas chaves distintas, uma para codificar e outra para decodificar mensagens. Neste método cada pessoa ou entidade mantém duas chaves: uma pública, que pode ser divulgada livremente, e outra privada, que deve ser mantida em segredo pelo seu dono. As mensagens codificadas com a chave pública só podem ser decodificadas com a chave privada correspondente. 
+- A criptografia de chaves pública e privada utiliza duas chaves distintas, uma para codificar e outra para decodificar mensagens. Neste método cada pessoa ou entidade mantém duas chaves: uma pública, que pode ser divulgada livremente, e outra privada, que deve ser mantida em segredo pelo seu dono. As mensagens codificadas com a chave pública só podem ser decodificadas com a chave privada correspondente. 
 
 ✔️ O que são certificados digitais?
 
-O SSL é a abreviação de “Secure Sockets Layer” e os certificados SSL são utilizados para proteger as comunicações entre um site, host ou servidor e os usuários finais que estão se conectando a ele (ou entre duas máquinas em um relacionamento cliente-servidor).
+- O SSL é a abreviação de “Secure Sockets Layer” e os certificados SSL são utilizados para proteger as comunicações entre um site, host ou servidor e os usuários finais que estão se conectando a ele (ou entre duas máquinas em um relacionamento cliente-servidor).
 
 ✔️ Os certificados têm identidade e validade
 
 ✔️ As chaves públicas estão no certificado, a chave privada está apenas no servidor
 
-A criptografia de chaves pública e privada utiliza duas chaves distintas, uma para codificar e outra para decodificar mensagens. Neste método cada pessoa ou entidade mantém duas chaves: uma pública, que pode ser divulgada livremente, e outra privada, que deve ser mantida em segredo pelo seu dono. As mensagens codificadas com a chave pública só podem ser decodificadas com a chave privada correspondente.
+- A criptografia de chaves pública e privada utiliza duas chaves distintas, uma para codificar e outra para decodificar mensagens. Neste método cada pessoa ou entidade mantém duas chaves: uma pública, que pode ser divulgada livremente, e outra privada, que deve ser mantida em segredo pelo seu dono. As mensagens codificadas com a chave pública só podem ser decodificadas com a chave privada correspondente.
 
-⏳ O que é uma autoridade de certificação?
-> (explicação em breve)
+✔️ O que é uma autoridade de certificação?
+
+A autoridade de certificação (CA), também conhecido como um Autoridade de Certificação, é uma empresa ou organização que atua para validar as identidades de entidades (como sites, endereços de email, empresas ou pessoas físicas) e vinculá-las a chaves criptográficas através da emissão de documentos eletrônicos conhecidos como certificados digitais. Um certificado digital fornece:
+
+- Autenticação, servindo como credencial para validar a identidade da entidade para a qual é emitida.
+
+- Criptografia, para comunicação segura em redes inseguras, como a Internet.
+
+- Integridade de documentos assinado com o certificado para que não possam ser alterados por terceiros em trânsito.
+
 
 ⏳ O navegador usa a chave pública para criptografar os dados?
 > (explicação em breve)
@@ -177,7 +185,7 @@ E alguns subtipos:
 
 ʻOutros formatos aceitos: https: // developer.mozilla.org / en-US / docs / Web / HTTP / Basics_of_HTTP / MIME_types`
 
-### 08. HTTP2 - Para uma web mais eficiente
+### 🔑 HTTP2 - Para uma web mais eficiente
 
 HTTP / 2 (originalmente chamado de HTTP / 2.0) é uma revisão importante do protocolo de rede HTTP usado pela World Wide Web. Ele foi derivado do protocolo SPDY experimental anterior, originalmente desenvolvido pelo Google.
 HTTP / 2 foi desenvolvido pelo Grupo de Trabalho HTTP (também chamado de httpbis, onde "bis" significa "segundo") da Força-Tarefa de Engenharia da Internet.
@@ -185,7 +193,7 @@ HTTP / 2 é a primeira nova versão de HTTP desde HTTP 1.1, padronizado no RFC 2
 O Grupo de Trabalho submeteu HTTP / 2 ao IESG para consideração como um padrão proposto em dezembro de 2014, e o IESG aprovou a publicação como um padrão proposto em 17 de fevereiro de 2015.
 A especificação HTTP / 2 foi publicada como RFC 7540 em 14 de maio de 2015.
 
-💡 Um pouco sobre HTTP2
+### 💡 Um pouco sobre HTTP2
 
 ↪️ Atua sobre o que já se conhece de HTTP
 
