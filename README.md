@@ -94,18 +94,38 @@ A autoridade de certificação (CA), também conhecido como um Autoridade de Cer
 
 ### 📢 O cliente pergunta e o servidor responde
 
-⏳ O protocolo HTTP segue o modelo Solicitação-Resposta
-> (explicação em breve)
+✔️ O protocolo HTTP segue o modelo Solicitação-Resposta
+
+A comunicação realizada pelo HTTP segue o modelo cliente-servidor, baseando-se nos conceitos de request (pedido) e response (resposta). Um request corresponde a um pedido feito ao servidor. Uma mensagem de requisição do cliente é composta pelos seguintes campos de maneira geral:
+
+- Linha de pedido: formada pelo identificador do método HTTP (GET, POST, PUT, DELETE, etc.), URI do recurso (endereço para o qual será enviado o pedido) e versão do protocolo (geralmente, HTTP 1.1 e HTTP 2);
+
+- Cabeçalho: contém meta-informações sobre a requisição, como a identificação do cliente que está fazendo o pedido;
+
+- Corpo: contém os dados da requisição.
+
+Já o response corresponde à resposta que é enviada pelo servidor. Geralmente, ele é composto dos seguintes componentes:
+
+- Linha de status: contém informações como a versão do protocolo utilizado no servidor, código numérico do status da resposta e o texto associado ao status;
+
+- Cabeçalho: é bem similar ao cabeçalho do pedido, ou seja, contém meta-informações e informações adicionais sobre o seu pedido e conteúdo de resposta;
+
+- Corpo: conteúdo de resposta para a requisição realizada (no caso de acesso a um site, seria o HTML para que o browser renderize a página, por exemplo).
+
+De fato, essa comunicação baseada nesse modelo cliente/servidor é extremamente rápida e eficiente. Porém, existe um problema grande: toda essa comunicação que ocorre através do protocolo HTTP é baseada em texto puro, o que é completamente inseguro. E aqui entra o HTTPS.
+
 
 ✔️ Sempre é o cliente inicia a comunicação
 
 ✔️ Um pedido deve ter todas as informações para o servidor gerar a resposta
 
-⏳ HTTP não tem estado, não guarda informações entre as solicitações
-> (explicação em breve)
+✔️ HTTP não tem estado, não guarda informações entre as solicitações
 
-⏳ As plataformas de desenvolvimento usam sessões para armazenar informações entre as solicitações
-> (explicação em breve)
+Cada página visitada gera um novo par de requisição/resposta), duas estratégias podem ser usadas, já que o HTTP por si só, não permite guardar o estado das requisições e respostas:
+
+- Você possui um cadastro no site e um programa escrito no servidor é responsável por armazenar suas informações ; ou
+
+- Um programa escrito em linguagem cliente (como JavaScript), gerencia essas informações através dos cookies e de bancos de dados que os próprios navegadores disponibilizam para as aplicações, para armazenamento temporário dessas informações.
 
 ### 🛠 Depurando a solicitação HTPP
 
