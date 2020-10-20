@@ -189,22 +189,22 @@ E alguns subtipos:
 text -> text / plain, text / html, text / css, text / javascript
 ```
 ```sh
-ʻImagem -> imagem / gif, imagem / png, imagem / jpeg
+Imagem -> imagem / gif, imagem / png, imagem / jpeg
 ```
 ```sh
-ʻAudio -> audio / midi, audio / mpeg, audio / webm, audio / ogg, audio / wav
-```
-
-```sh
-`video -> video / mp4
+Audio -> audio / midi, audio / mpeg, audio / webm, audio / ogg, audio / wav
 ```
 
 ```sh
-ʻApplication -> application / xml, application / pdf
+video -> video / mp4
 ```
 
 ```sh
-ʻOutros formatos aceitos: https: // developer.mozilla.org / en-US / docs / Web / HTTP / Basics_of_HTTP / MIME_types
+Application -> application / xml, application / pdf
+```
+
+```sh
+Outros formatos aceitos: https: // developer.mozilla.org / en-US / docs / Web / HTTP / Basics_of_HTTP / MIME_types
 ```
 
 ---
