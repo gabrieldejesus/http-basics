@@ -247,3 +247,29 @@ A especificação HTTP 2 foi publicada como RFC 7540 em 14 de maio de 2015.
 
 ⏳ Serve-Push (ato do servidor enviar dados sem que o navegador tenha solicitado)
 > (explicação em breve)
+
+---
+
+## 🗃 Histórico de lançamento
+
+* 0.1.0
+    * Estudando a possibilidade de adicionar novos conteúdos
+
+* 0.0.1
+    * Trabalho em progresso
+
+## 📝 Meta
+
+Gabriel de Jesus - [Meu Portfólio](https://www.gabrieldesenvolvedor.com/) - oi@gabrieldesenvolvedor.com
+
+Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+
+[https://github.com/devgabrieldejesus/http-basics](https://github.com/devgabrieldejesus/)
+
+## 🚀 Contribuição
+
+1. Fork em (<https://github.com/devgabrieldejesus/http-basics/fork>)
+2. Crie seu branch de recurso (`git checkout -b feature / fooBar`)
+3. Faça commit de suas alterações (`git commit -am 'Add some fooBar'`)
+4. Empurre para o branch (`git push origin feature / fooBar`)
+5. Crie uma nova solicitação pull
