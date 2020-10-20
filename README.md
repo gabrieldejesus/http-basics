@@ -173,12 +173,6 @@ Usado para definir os detalhes da pesquisa ou enviar dados do formulário
 
 - Um URI (Identificador de recursos uniforme) é uma sequência de caracteres utilizados para identificar um recurso lógico ou físico, geralmente, na internet. O URI descreve os mecanismos para acessar um recurso, os computadores nos quais os recursos estão hospedados e os nomes dos recursos em cada computador. 
 
-⏳ Operações com métodos HTTP (GET / POST / PUT / DELETE)
-> (explicação em breve)
-
-⏳ Cabeçalhos (Aceitar / Tipo de Conteúdo) são usados para especificar representações (JSON, XML, ...)
-> (explicação em breve)
-
 ---
 
 ### 💡 Para saber mais: tipos de dados
