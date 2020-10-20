@@ -25,7 +25,7 @@ endereço: https://tools.ietf.org/html/rfc2616
 HTTP é um protocolo que define as regras de comunicação entre cliente e servidor na internet.
 
 ### Exemplo:
-**Cliente** (navegador como Chrome ou Firefox) -> **HTTP (protocolo)** -> **Servidor** (usando PHP, JAVA ou NET entre outros) *
+**Cliente** (navegador como Chrome ou Firefox) -> **HTTP (protocolo)** -> **Servidor** (usando PHP, JAVA ou NET entre outros)
 
 ---
 
@@ -75,9 +75,6 @@ A autoridade de certificação (CA), também conhecido como um Autoridade de Cer
 
 - Integridade de documentos assinado com o certificado para que não possam ser alterados por terceiros em trânsito.
 
-⏳ O navegador usa a chave pública para criptografar os dados?
-> (explicação em breve)
-
 ---
 
 ### 🌐 Endereços em seu domínio
@@ -116,7 +113,7 @@ Já o response corresponde à resposta que é enviada pelo servidor. Geralmente,
 
 De fato, essa comunicação baseada nesse modelo cliente/servidor é extremamente rápida e eficiente. Porém, existe um problema grande: toda essa comunicação que ocorre através do protocolo HTTP é baseada em texto puro, o que é completamente inseguro. E aqui entra o HTTPS.
 
-✔️ Sempre é o cliente inicia a comunicação
+✔️ Sempre é o cliente que inicia a comunicação
 
 ✔️ Um pedido deve ter todas as informações para o servidor gerar a resposta
 
@@ -188,21 +185,33 @@ Usado para definir os detalhes da pesquisa ou enviar dados do formulário
 
 Em alguns cabeçalhos HTTP, devemos especificar algum formato. Os formatos são chamados na documentação dos tipos MIME. E na definição do cabeçalho usamos a seguinte estrutura: tipo / subtipo. Os tipos conhecidos são:
 
-`texto, imagem, aplicativo, áudio e vídeo`
+```sh 
+texto, imagem, aplicativo, áudio e vídeo
+```
 
 E alguns subtipos:
 
-`text -> text / plain, text / html, text / css, text / javascript`
+```sh
+text -> text / plain, text / html, text / css, text / javascript
+```
+```sh
+ʻImagem -> imagem / gif, imagem / png, imagem / jpeg
+```
+```sh
+ʻAudio -> audio / midi, audio / mpeg, audio / webm, audio / ogg, audio / wav
+```
 
-ʻImagem -> imagem / gif, imagem / png, imagem / jpeg`
+```sh
+`video -> video / mp4
+```
 
-ʻAudio -> audio / midi, audio / mpeg, audio / webm, audio / ogg, audio / wav`
+```sh
+ʻApplication -> application / xml, application / pdf
+```
 
-`video -> video / mp4`
-
-ʻApplication -> application / xml, application / pdf`
-
-ʻOutros formatos aceitos: https: // developer.mozilla.org / en-US / docs / Web / HTTP / Basics_of_HTTP / MIME_types`
+```sh
+ʻOutros formatos aceitos: https: // developer.mozilla.org / en-US / docs / Web / HTTP / Basics_of_HTTP / MIME_types
+```
 
 ---
 
