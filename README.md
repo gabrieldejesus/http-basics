@@ -27,7 +27,7 @@ HTTP é um protocolo que define as regras de comunicação entre cliente e servi
 ### Exemplo:
 **Cliente** (navegador como Chrome ou Firefox) -> **HTTP (protocolo)** -> **Servidor** (usando PHP, JAVA ou NET entre outros) *
 
-***
+---
 
 ## 💡 Vamos Além
 
@@ -41,6 +41,7 @@ HTTP é um protocolo que define as regras de comunicação entre cliente e servi
 
 ✔️ HTTP é o protocolo mais importante da internet
 
+---
 
 ### 🔐 A web segura - HTTPS
 
@@ -74,10 +75,10 @@ A autoridade de certificação (CA), também conhecido como um Autoridade de Cer
 
 - Integridade de documentos assinado com o certificado para que não possam ser alterados por terceiros em trânsito.
 
-
 ⏳ O navegador usa a chave pública para criptografar os dados?
 > (explicação em breve)
 
+---
 
 ### 🌐 Endereços em seu domínio
 
@@ -91,6 +92,7 @@ A autoridade de certificação (CA), também conhecido como um Autoridade de Cer
 
 ✔️ Um recurso é algo concreto no aplicativo que queremos acessar
 
+---
 
 ### 📢 O cliente pergunta e o servidor responde
 
@@ -114,7 +116,6 @@ Já o response corresponde à resposta que é enviada pelo servidor. Geralmente,
 
 De fato, essa comunicação baseada nesse modelo cliente/servidor é extremamente rápida e eficiente. Porém, existe um problema grande: toda essa comunicação que ocorre através do protocolo HTTP é baseada em texto puro, o que é completamente inseguro. E aqui entra o HTTPS.
 
-
 ✔️ Sempre é o cliente inicia a comunicação
 
 ✔️ Um pedido deve ter todas as informações para o servidor gerar a resposta
@@ -127,63 +128,61 @@ Cada página visitada gera um novo par de requisição/resposta), duas estratég
 
 - Um programa escrito em linguagem cliente (como JavaScript), gerencia essas informações através dos cookies e de bancos de dados que os próprios navegadores disponibilizam para as aplicações, para armazenamento temporário dessas informações.
 
+---
+
 ### 🛠 Depurando a solicitação HTPP
 
-⏳ Console de depuração
-> (explicação em breve)
+✔️ Cabeçalho de resposta
 
-⏳ Método HTTP GET
-> (explicação em breve)
+- Os cabeçalhos HTTP permitem que o cliente e o servidor passem informações adicionais com uma solicitação ou resposta HTTP. Um cabeçalho HTTP consiste em seu nome que não diferencia maiúsculas de minúsculas, seguido por dois pontos (:) e, a seguir, por seu valor. O espaço em branco antes do valor é ignorado.
 
-⏳ Cabeçalho de resposta
-> (explicação em breve)
+✔️ Códigos de resposta (código de status)
 
-⏳ Códigos de resposta (código de status)
-> (explicação em breve)
+- Os códigos de status das respostas HTTP indicam se uma requisição HTTP foi corretamente concluída. As respostas são agrupadas em cinco classes:
+
+1. Respostas de informação (100-199),
+2. Respostas de sucesso (200-299),
+3. Redirecionamentos (300-399)
+4. Erros do cliente (400-499)
+5. Erros do servidor (500-599).
+
+---
 
 ### 🧱 Parâmetros de solicitação
 
-✔️ Usado para definir os detalhes da pesquisa ou enviar dados do formulário
+Usado para definir os detalhes da pesquisa ou enviar dados do formulário
 
-⏳ GET: os parâmetros são enviados na própria URL (usando [?] E concatenando com [&])
-> (explicação em breve)
-
-⏳ POST: os parâmetros são enviados no corpo da solicitação
-> (explicação em breve)
-
-⏳ HTTP️ Existem outros métodos HTTP como POST, DELETE, PUT
-> (explicação em breve)
-
-Resumo
-
-⏳ OBTER: Receber dados (Parâmetros na URL)
-> (explicação em breve)
+✔️ GET: Receber dados (Os parâmetros são enviados na própria URL (usando [?] E concatenando com [&])
+- O método GET solicita a representação de um recurso específico. Requisições utilizando o método GET devem retornar apenas dados.
  
-⏳ POST: Enviar dados (parâmetros no corpo da solicitação)
-> (explicação em breve)
+✔️ POST: Enviar dados (Parâmetros no corpo da solicitação)
+- O método POST é utilizado para submeter uma entidade a um recurso específico, frequentemente causando uma mudança no estado do recurso ou efeitos colaterais no servidor.
 
-⏳ DELETE: Remover um recurso
-> (explicação em breve)
- 
-⏳ PUT / PATCH: Atualizar um recurso
-> (explicação em breve)
+✔️ DELETE: Remover um recurso
+- O método DELETE remove um recurso específico.
 
-### 07. Serviços da Web com REST
+✔️ PUT / PATCH: Atualizar um recurso
+- O método PUT substitui todas as atuais representações do recurso de destino pela carga de dados da requisição.
 
-⏳ REST é um padrão arquitetônico para comunicações entre aplicativos
-> (explicação em breve)
+---
 
-⏳ Aproveita a estrutura HTTP
-> (explicação em breve)
+### ⚙️ Serviços da Web com REST
 
-⏳ Os recursos são definidos via URI
-> (explicação em breve)
+✔️ REST é um padrão arquitetônico para comunicações entre aplicativos
+
+- É um conjunto de princípios de arquitetura que atende às necessidades de aplicações mobile e serviços web leves. Como se trata de um grupo de diretrizes, são os desenvolvedores que precisam implementar essas recomendações.
+
+✔️ Os recursos são definidos via URI
+
+- Um URI (Identificador de recursos uniforme) é uma sequência de caracteres utilizados para identificar um recurso lógico ou físico, geralmente, na internet. O URI descreve os mecanismos para acessar um recurso, os computadores nos quais os recursos estão hospedados e os nomes dos recursos em cada computador. 
 
 ⏳ Operações com métodos HTTP (GET / POST / PUT / DELETE)
 > (explicação em breve)
 
 ⏳ Cabeçalhos (Aceitar / Tipo de Conteúdo) são usados para especificar representações (JSON, XML, ...)
 > (explicação em breve)
+
+---
 
 ### 💡 Para saber mais: tipos de dados
 
@@ -205,24 +204,37 @@ E alguns subtipos:
 
 ʻOutros formatos aceitos: https: // developer.mozilla.org / en-US / docs / Web / HTTP / Basics_of_HTTP / MIME_types`
 
-### 🔑 HTTP2 - Para uma web mais eficiente
+---
 
-HTTP / 2 (originalmente chamado de HTTP / 2.0) é uma revisão importante do protocolo de rede HTTP usado pela World Wide Web. Ele foi derivado do protocolo SPDY experimental anterior, originalmente desenvolvido pelo Google.
-HTTP / 2 foi desenvolvido pelo Grupo de Trabalho HTTP (também chamado de httpbis, onde "bis" significa "segundo") da Força-Tarefa de Engenharia da Internet.
-HTTP / 2 é a primeira nova versão de HTTP desde HTTP 1.1, padronizado no RFC 2068 em 1997.
-O Grupo de Trabalho submeteu HTTP / 2 ao IESG para consideração como um padrão proposto em dezembro de 2014, e o IESG aprovou a publicação como um padrão proposto em 17 de fevereiro de 2015.
-A especificação HTTP / 2 foi publicada como RFC 7540 em 14 de maio de 2015.
+### 🔑 HTTP 2 - Para uma web mais eficiente
+
+HTTP 2 (originalmente chamado de HTTP/2.0) é uma revisão importante do protocolo de rede HTTP usado pela World Wide Web. Ele foi derivado do protocolo SPDY experimental anterior, originalmente desenvolvido pelo Google.
+
+HTTP 2 foi desenvolvido pelo Grupo de Trabalho HTTP (também chamado de httpbis, onde "bis" significa "segundo") da Força-Tarefa de Engenharia da Internet.
+
+HTTP 2 é a primeira nova versão de HTTP desde HTTP 1.1, padronizado no RFC 2068 em 1997.
+
+O Grupo de Trabalho submeteu HTTP 2 ao IESG para consideração como um padrão proposto em dezembro de 2014, e o IESG aprovou a publicação como um padrão proposto em 17 de fevereiro de 2015.
+
+A especificação HTTP 2 foi publicada como RFC 7540 em 14 de maio de 2015.
+
+---
 
 ### 💡 Um pouco sobre HTTP2
 
-↪️ Atua sobre o que já se conhece de HTTP
+✔️ Atua sobre o que já se conhece de HTTP
 
-↪️ Cabeçalhos binários e de tablet (HPACK)
+⏳ Cabeçalhos binários e de tablet (HPACK)
+> (explicação em breve)
 
-↪️ GZIP padrão em resposta
+⏳ GZIP padrão em resposta
+> (explicação em breve)
 
-↪️ Multiplexação (solicitação e respostas são paralelas)
+⏳ Multiplexação (solicitação e respostas são paralelas)
+> (explicação em breve)
 
-↪️ Cabeçalhos úteis (apenas enviamos cabeçalhos que mudam)
+⏳ Cabeçalhos úteis (apenas enviamos cabeçalhos que mudam)
+> (explicação em breve)
 
-↪️ Serve-Push (ato do servidor enviar dados sem que o navegador tenha solicitado)
+⏳ Serve-Push (ato do servidor enviar dados sem que o navegador tenha solicitado)
+> (explicação em breve)
