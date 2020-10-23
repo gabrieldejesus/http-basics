@@ -203,10 +203,6 @@ video -> video / mp4
 Application -> application / xml, application / pdf
 ```
 
-```sh
-Outros formatos aceitos: https: // developer.mozilla.org / en-US / docs / Web / HTTP / Basics_of_HTTP / MIME_types
-```
-
 ---
 
 ### 🔑 HTTP 2 - Para uma web mais eficiente
@@ -244,11 +240,26 @@ A especificação HTTP 2 foi publicada como RFC 7540 em 14 de maio de 2015.
 
 ---
 
+## 💻 Configuração para Desenvolvimento
+
+Windows:
+
+Você pode clonar o repositório por meio do CMD (Prompt de Comando) apenas digitando:
+
+```
+git clone https://github.com/devgabrieldejesus/http-basics
+```
+
+ou baixe o zip do botão verde no início do repositório
+
+![](images/clone.png)
+
+![](images/clone-zip.png)
+
 ## 🗃 Histórico de lançamento
 
 * 0.1.0
     * Estudando a possibilidade de adicionar novos conteúdos
-
 * 0.0.1
     * Trabalho em progresso
 
