@@ -258,9 +258,9 @@ ou baixe o zip do botão verde no início do repositório
 
 ## 🗃 Histórico de lançamento
 
-* 0.1.0
+* 1.0
     * Estudando a possibilidade de adicionar novos conteúdos
-* 0.0.1
+* 0.5
     * Trabalho em progresso
 
 ## 📝 Meta
