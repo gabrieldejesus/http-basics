@@ -219,27 +219,6 @@ A especificação HTTP 2 foi publicada como RFC 7540 em 14 de maio de 2015.
 
 ---
 
-### 💡 Um pouco sobre HTTP2
-
-✔️ Atua sobre o que já se conhece de HTTP
-
-⏳ Cabeçalhos binários e de tablet (HPACK)
-> (explicação em breve)
-
-⏳ GZIP padrão em resposta
-> (explicação em breve)
-
-⏳ Multiplexação (solicitação e respostas são paralelas)
-> (explicação em breve)
-
-⏳ Cabeçalhos úteis (apenas enviamos cabeçalhos que mudam)
-> (explicação em breve)
-
-⏳ Serve-Push (ato do servidor enviar dados sem que o navegador tenha solicitado)
-> (explicação em breve)
-
----
-
 ## 💻 Configuração para Desenvolvimento
 
 Windows:
