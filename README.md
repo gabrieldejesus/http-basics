@@ -246,13 +246,6 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 ## 🚀 Contribuição
 
 1. Fork em (<https://github.com/devgabrieldejesus/http-basics/fork>)
-
-ou baixe o zip do botão verde no início do repositório
-
-<img src="https://i.ibb.co/3mLnKMH/clone.png" alt="Baixe clicando no botão verde no início do repositório passo 1" border="0">
-
-<img src="https://i.ibb.co/NYTzBd9/clone-zip.png" alt="Baixe clicando no botão verde no início do repositório passo 2" border="0">
-
 2. Crie seu branch de conteúdo (`git checkout -b meu-novo-conteudo`)
 3. Faça commit de suas alterações (`git commit -am 'adiconando meu novo conteudo'`)
 4. Empurre para o branch (`git push origin meu-novo-conteudo`)
