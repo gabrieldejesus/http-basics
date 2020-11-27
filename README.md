@@ -1,6 +1,8 @@
-![](images/cover.png)
+<p align="center">
+  <img src="https://i.ibb.co/x6sKRh3/basic-http.png" alt="O Básico sobre HTTP" border="0">
+</p>
 
-## O que é HTTP?
+# 🤔 O que é HTTP?
 
 Quando se trata de HTTP, o primeiro pensamento que vem à mente é sobre como usar internet, é o cenário onde realmente vemos o uso do HTTP na prática. Nós acessamos sites onde seus endereços começam com http: // e, portanto, precisamos saber o que realmente está acontecendo ao fazer isso.
 
@@ -43,7 +45,7 @@ HTTP é um protocolo que define as regras de comunicação entre cliente e servi
 
 ---
 
-### 🔐 A web segura - HTTPS
+## 🔐 A web segura - HTTPS
 
 ✔️ Por padrão, os dados são trafegados como texto simples na web.
 
@@ -77,7 +79,7 @@ A autoridade de certificação (CA), também conhecido como um Autoridade de Cer
 
 ---
 
-### 🌐 Endereços em seu domínio
+## 🌐 Endereços em seu domínio
 
 ✔️ URL são os endereços da web
 
@@ -91,7 +93,7 @@ A autoridade de certificação (CA), também conhecido como um Autoridade de Cer
 
 ---
 
-### 📢 O cliente pergunta e o servidor responde
+## 📢 O cliente pergunta e o servidor responde
 
 ✔️ O protocolo HTTP segue o modelo Solicitação-Resposta
 
@@ -127,7 +129,7 @@ Cada página visitada gera um novo par de requisição/resposta), duas estratég
 
 ---
 
-### 🛠 Depurando a solicitação HTPP
+## 🛠 Depurando a solicitação HTPP
 
 ✔️ Cabeçalho de resposta
 
@@ -145,7 +147,7 @@ Cada página visitada gera um novo par de requisição/resposta), duas estratég
 
 ---
 
-### 🧱 Parâmetros de solicitação
+## 🧱 Parâmetros de solicitação
 
 Usado para definir os detalhes da pesquisa ou enviar dados do formulário
 
@@ -163,7 +165,7 @@ Usado para definir os detalhes da pesquisa ou enviar dados do formulário
 
 ---
 
-### ⚙️ Serviços da Web com REST
+## ⚙️ Serviços da Web com REST
 
 ✔️ REST é um padrão arquitetônico para comunicações entre aplicativos
 
@@ -175,7 +177,7 @@ Usado para definir os detalhes da pesquisa ou enviar dados do formulário
 
 ---
 
-### 💡 Para saber mais: tipos de dados
+## 💡 Para saber mais: tipos de dados
 
 Em alguns cabeçalhos HTTP, devemos especificar algum formato. Os formatos são chamados na documentação dos tipos MIME. E na definição do cabeçalho usamos a seguinte estrutura: tipo / subtipo. Os tipos conhecidos são:
 
@@ -205,7 +207,7 @@ Application -> application / xml, application / pdf
 
 ---
 
-### 🔑 HTTP 2 - Para uma web mais eficiente
+## 🔑 HTTP 2 - Para uma web mais eficiente
 
 HTTP 2 (originalmente chamado de HTTP/2.0) é uma revisão importante do protocolo de rede HTTP usado pela World Wide Web. Ele foi derivado do protocolo SPDY experimental anterior, originalmente desenvolvido pelo Google.
 
@@ -219,21 +221,12 @@ A especificação HTTP 2 foi publicada como RFC 7540 em 14 de maio de 2015.
 
 ---
 
-## 💻 Configuração para Desenvolvimento
+<br/>
+<br/>
 
-Windows:
 
-Você pode clonar o repositório por meio do CMD (Prompt de Comando) apenas digitando:
+<h2 align="center">📰 Informações e Ajuda</h2>
 
-```
-git clone https://github.com/devgabrieldejesus/http-basics
-```
-
-ou baixe o zip do botão verde no início do repositório
-
-![](images/clone.png)
-
-![](images/clone-zip.png)
 
 ## 🗃 Histórico de lançamento
 
@@ -253,7 +246,16 @@ Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
 ## 🚀 Contribuição
 
 1. Fork em (<https://github.com/devgabrieldejesus/http-basics/fork>)
-2. Crie seu branch de recurso (`git checkout -b feature / fooBar`)
-3. Faça commit de suas alterações (`git commit -am 'Add some fooBar'`)
-4. Empurre para o branch (`git push origin feature / fooBar`)
+
+ou baixe o zip do botão verde no início do repositório
+
+<img src="https://i.ibb.co/3mLnKMH/clone.png" alt="Baixe clicando no botão verde no início do repositório passo 1" border="0">
+
+<img src="https://i.ibb.co/NYTzBd9/clone-zip.png" alt="Baixe clicando no botão verde no início do repositório passo 2" border="0">
+
+2. Crie seu branch de conteúdo (`git checkout -b meu-novo-conteudo`)
+3. Faça commit de suas alterações (`git commit -am 'adiconando meu novo conteudo'`)
+4. Empurre para o branch (`git push origin meu-novo-conteudo`)
 5. Crie uma nova solicitação pull
+
+**Depois que sua solicitação pull for mesclada**, você pode excluir seu branch com segurança.
