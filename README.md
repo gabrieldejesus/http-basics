@@ -224,31 +224,32 @@ A especificação HTTP 2 foi publicada como RFC 7540 em 14 de maio de 2015.
 <br/>
 <br/>
 
-
 <h2 align="center">📰 Informações e Ajuda</h2>
 
 
 ## 🗃 Histórico de lançamento
 
-* 1.0
-    * Estudando a possibilidade de adicionar novos conteúdos
-* 0.5
-    * Trabalho em progresso
-
+- 0.1.0
+    - Estudando a possibilidade de adicionar novos conteúdos
+- 0.0.1
+    - Trabalho em progresso
+    
 ## 📝 Meta
 
-Gabriel de Jesus - [Meu Portfólio](https://www.gabrieldesenvolvedor.com/) - oi@gabrieldesenvolvedor.com
+Gabriel de Jesus - [Meu portfólio](https://gabrieldesenvolvedor.com) - devgabrieldejesus@gmail.com
 
-Distribuído sob a licença MIT. Veja `LICENSE` para mais informações.
+Distribuído sob a licença MIT. Consulte [LICENSE](LICENSE) para obter mais informações.
 
-[https://github.com/devgabrieldejesus/http-basics](https://github.com/devgabrieldejesus/)
+[https://github.com/gabrieldejesus/http-basics](https://github.com/gabrieldejesus)
 
 ## 🚀 Contribuição
 
-1. Fork em (<https://github.com/devgabrieldejesus/http-basics/fork>)
-2. Crie seu branch de conteúdo (`git checkout -b meu-novo-conteudo`)
-3. Faça commit de suas alterações (`git commit -am 'adiconando meu novo conteudo'`)
-4. Empurre para o branch (`git push origin meu-novo-conteudo`)
-5. Crie uma nova solicitação pull
+1. Faça o _fork_ do projeto (<https://github.com/gabrieldejesus/http-basics/fork>)
+2. Crie uma _branch_ para sua modificação (`git checkout -b meu-novo-conteudo`)
+3. Faça _commit_ (`git commit -am 'Adicionando um novo conteúdo ...'`)
+4. _Push_ (`git push origin meu-novo-conteudo`)
+5. Crie um novo _Pull Request_
 
 **Depois que sua solicitação pull for mesclada**, você pode excluir seu branch com segurança.
+
+---
