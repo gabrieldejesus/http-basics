@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.ibb.co/x6sKRh3/basic-http.png" alt="O Básico sobre HTTP" border="0">
+  <img src="https://i.ibb.co/K9QHtpp/basic-http.png" alt="O Básico sobre HTTP" border="0">
 </p>
 
 # 🤔 O que é HTTP?
